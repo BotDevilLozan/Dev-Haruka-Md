@@ -15,7 +15,7 @@ function toCommas(x) {
 exports.allMenu = (role, ucapanWaktu, pushname, mundur, upload, download, ownerName, botName, jam, tanggal, runtime, isCreator, isPremium, sender, limitCount, limit, gcount, glimit, balance, prefix) => {
     return`${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'}
 
-Hitung Mundur Idul Fitri 🌙 
+Hitung 💀
 ${mundur}
 
 *STATISTICS*
@@ -23,11 +23,11 @@ ${mundur}
  • Downloads : ${download}
 
 *BOT INFO*
- • Creator : ${ownerName}
- • Bot Name : ${botName}
+ • FUCK : ${ownerName}
+ • Name : ${botName}
  • Time : ${jam}
  • Date : ${tanggal(new Date())}
- • Runtime : ${runtime(process.uptime())}
+ • CC+ : ${runtime(process.uptime())}
 
 *USER INFO*
  • Name : ${pushname !== undefined ? pushname : '-'}
@@ -38,9 +38,9 @@ ${mundur}
  • Role : ${role}
  
  
-*MAIN MENU*${petik}
+*FENIX MENU*${petik}
  • ${prefix}menu
- • ${prefix}infobot
+ • ${prefix}info
  • ${prefix}donate
  • ${prefix}dashboard
  • ${prefix}owner
@@ -53,7 +53,7 @@ ${mundur}
  • ${prefix}runtime
  • ${prefix}listbahasa${petik}
 
-*CONVERTER/TOOLS*${petik} 
+*FENIX/TOOLS*${petik} 
  • ${prefix}sticker
  • ${prefix}qc
  • ${prefix}xquote
