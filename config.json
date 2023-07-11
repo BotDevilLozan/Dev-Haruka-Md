@@ -17,7 +17,7 @@
     "auto_leaveMsg": false, 
     "antiViewOnce": true,
     "grupOnly": false,
-    "japriOnly": true, 
+    "japriOnly": false, 
     "antiDelete": true,
     "autobio": false,
     "anticall": true,
